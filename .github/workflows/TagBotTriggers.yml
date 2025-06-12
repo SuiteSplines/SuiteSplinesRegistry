@@ -24,7 +24,7 @@ jobs:
       - run: rm -rf .ci/Manifest-*.toml
       - run: chmod 400 .ci/Project.toml
       - run: chmod 400 .ci/Manifest.toml
-      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add(["General","https://github.com/SuiteSplines/SuiteSplinesRegistry")'
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add(["General","https://github.com/SuiteSplines/SuiteSplinesRegistry"])'
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
