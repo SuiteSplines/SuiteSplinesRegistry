@@ -1,6 +1,6 @@
 name = "SuiteSplinesRegistry"
 uuid = "df7358ec-30c0-41d2-becf-685aef48513c"
-repo = "git@github.com:SuiteSplines/SuiteSplinesRegistry.git"
+repo = "https://github.com/SuiteSplines/SuiteSplinesRegistry.git"
 description = "SuiteSplines local registry"
 
 [packages]
