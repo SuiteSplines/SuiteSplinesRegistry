@@ -32,4 +32,4 @@ jobs:
       - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
       - run: julia --color=yes --project=.ci/ -e 'using RegistryCI.TagBot; TagBot.main()'
         env:
-          GITHUB_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
