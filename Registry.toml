@@ -4,4 +4,5 @@ repo = "https://github.com/SuiteSplines/SuiteSplinesRegistry.git"
 description = "SuiteSplines local registry"
 
 [packages]
+6606482d-3ef5-47b1-bd38-b02eeb053191 = { name = "SuiteSplinesExampleDep", path = "S/SuiteSplinesExampleDep" }
 f85cb439-bc22-49c8-a213-82e476719812 = { name = "SuiteSplinesExamplePkg", path = "S/SuiteSplinesExamplePkg" }
