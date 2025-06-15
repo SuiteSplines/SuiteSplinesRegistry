@@ -1,0 +1,3 @@
+name = "CartesianProducts"
+uuid = "ddfd9c64-15e7-45fc-8e16-950f3835cae5"
+repo = "https://github.com/SuiteSplines/CartesianProducts.jl.git"
