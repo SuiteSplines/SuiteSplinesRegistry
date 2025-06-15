@@ -1,0 +1,3 @@
+name = "NURBS"
+uuid = "3119edd0-0685-4064-9500-10252e0e5727"
+repo = "https://github.com/SuiteSplines/NURBS.jl.git"
