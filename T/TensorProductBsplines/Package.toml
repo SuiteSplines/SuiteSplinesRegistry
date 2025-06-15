@@ -1,0 +1,3 @@
+name = "TensorProductBsplines"
+uuid = "89f2e70f-f704-4f07-9b81-69bdc44074b1"
+repo = "https://github.com/SuiteSplines/TensorProductBsplines.jl.git"
