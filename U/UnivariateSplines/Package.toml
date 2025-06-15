@@ -1,0 +1,3 @@
+name = "UnivariateSplines"
+uuid = "2552f6ce-f0d6-4ba3-bf39-bb338613ee69"
+repo = "https://github.com/SuiteSplines/UnivariateSplines.jl.git"

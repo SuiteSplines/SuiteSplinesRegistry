@@ -4,6 +4,7 @@ repo = "https://github.com/SuiteSplines/SuiteSplinesRegistry.git"
 description = "SuiteSplines local registry"
 
 [packages]
+2552f6ce-f0d6-4ba3-bf39-bb338613ee69 = { name = "UnivariateSplines", path = "U/UnivariateSplines" }
 2f2e3dc8-c2cf-4b7f-b456-36845a1cbdbc = { name = "SortedSequences", path = "S/SortedSequences" }
 5766f8de-d509-470a-8420-f491b24ab91b = { name = "KroneckerProducts", path = "K/KroneckerProducts" }
 6606482d-3ef5-47b1-bd38-b02eeb053191 = { name = "SuiteSplinesExampleDep", path = "S/SuiteSplinesExampleDep" }
