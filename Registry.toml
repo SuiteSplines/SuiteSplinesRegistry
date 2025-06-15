@@ -7,6 +7,7 @@ description = "SuiteSplines local registry"
 2552f6ce-f0d6-4ba3-bf39-bb338613ee69 = { name = "UnivariateSplines", path = "U/UnivariateSplines" }
 2f2e3dc8-c2cf-4b7f-b456-36845a1cbdbc = { name = "SortedSequences", path = "S/SortedSequences" }
 3119edd0-0685-4064-9500-10252e0e5727 = { name = "NURBS", path = "N/NURBS" }
+3811570c-b24d-4931-9f1c-72ee5a79a1d1 = { name = "IgaFormation", path = "I/IgaFormation" }
 5766f8de-d509-470a-8420-f491b24ab91b = { name = "KroneckerProducts", path = "K/KroneckerProducts" }
 6606482d-3ef5-47b1-bd38-b02eeb053191 = { name = "SuiteSplinesExampleDep", path = "S/SuiteSplinesExampleDep" }
 7dac2afd-1bf6-47b8-bc94-9dcdcd19d527 = { name = "AbstractMappings", path = "A/AbstractMappings" }
