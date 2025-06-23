@@ -1,7 +1,13 @@
 [0]
 AbstractMappings = "0.8.1-0.8"
 CartesianProducts = "0.15"
-IgaBase = "0.8"
 KroneckerProducts = "0.13"
 SortedSequences = "0.6.2-0.6"
+
+["0-0.8.2"]
+IgaBase = "0.8"
 UnivariateSplines = "0.14"
+
+["0.8.3-0"]
+IgaBase = "0.9"
+UnivariateSplines = "0.15"
