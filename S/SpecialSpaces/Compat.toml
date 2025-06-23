@@ -1,0 +1,9 @@
+[0]
+AbstractMappings = "0.8.10-0.8"
+CartesianProducts = "0.15"
+IgaBase = "0.8.1-0.8"
+KroneckerProducts = "0.13"
+SortedSequences = "0.6.2-0.6"
+TensorProductBsplines = "0.8.2-0.8"
+UnivariateSplines = "0.14"
+julia = "1.10.0-1"
