@@ -16,6 +16,7 @@ description = "SuiteSplines local registry"
 9c103fa8-ae55-49f5-92db-ab77803cf2c4 = { name = "IgaBase", path = "I/IgaBase" }
 b2e007fe-26bf-4abf-a2e9-4b2a1ab78b25 = { name = "LocalRegistrator", path = "L/LocalRegistrator" }
 c1439797-f1c6-466c-87a0-2eb89882a10c = { name = "SuiteSplines", path = "S/SuiteSplines" }
+cc3e65be-d4cb-4562-9ae2-5262579a9956 = { name = "SpecialSpaces", path = "S/SpecialSpaces" }
 ddfd9c64-15e7-45fc-8e16-950f3835cae5 = { name = "CartesianProducts", path = "C/CartesianProducts" }
 e2515d83-272f-46f3-a47f-6d1ac1d67685 = { name = "BezierBernsteinMethods", path = "B/BezierBernsteinMethods" }
 f85cb439-bc22-49c8-a213-82e476719812 = { name = "SuiteSplinesExamplePkg", path = "S/SuiteSplinesExamplePkg" }
