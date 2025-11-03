@@ -57,7 +57,7 @@ jobs:
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: .ci/instantiate.sh
+      - run: .ci/instantiate.sh .ci/
       - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.update()'
       - run: |
           if Base.VERSION >= v"1.6"
