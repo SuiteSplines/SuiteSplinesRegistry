@@ -1,0 +1,3 @@
+name = "Taiga"
+uuid = "e9eb81f5-0267-4fb6-9dbb-4fd71c34045d"
+repo = "https://github.com/SuiteSplines/Taiga.jl.git"
