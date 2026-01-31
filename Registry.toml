@@ -4,6 +4,7 @@ repo = "https://github.com/SuiteSplines/SuiteSplinesRegistry.git"
 description = "SuiteSplines local registry"
 
 [packages]
+02ef8825-a90c-4183-9e33-ca1bdd4e7cfb = { name = "MomentFittingQuadrature", path = "M/MomentFittingQuadrature" }
 2552f6ce-f0d6-4ba3-bf39-bb338613ee69 = { name = "UnivariateSplines", path = "U/UnivariateSplines" }
 2f2e3dc8-c2cf-4b7f-b456-36845a1cbdbc = { name = "SortedSequences", path = "S/SortedSequences" }
 3119edd0-0685-4064-9500-10252e0e5727 = { name = "NURBS", path = "N/NURBS" }
