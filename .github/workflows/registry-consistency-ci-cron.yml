@@ -1,26 +1,12 @@
-name: Registry Consistency
-
+name: Registry Consistency (Cron)
 on:
-  pull_request:
-    branches:
-      - main
-  push:
-    branches:
-      - main
+  schedule:
+    - cron:  '0 0 * * *'
   workflow_dispatch:
-
 env:
     JULIA_PKG_USE_CLI_GIT: true
-
 permissions:
   contents: read
-
-concurrency:
-  # Skip intermediate builds: always.
-  # Cancel intermediate builds: only pull request builds
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
-
 jobs:
   check:
     runs-on: ${{ matrix.os }}
@@ -29,13 +15,15 @@ jobs:
       fail-fast: false
       matrix:
         version:
-          # - '1.0' # RegistryCI currently doesn't support Julia 1.0
+          # Keep this list in sync with `update_manifests.yml`.
+          # - '1.0' # RegistryCI currently doesn't support Julia 1.0 
           # - '1.1' # RegistryCI currently doesn't support Julia 1.1
           # - '1.2' # RegistryCI currently doesn't support Julia 1.2
           - '1.3'
-          # We intentionally skip the following: 1.4, 1.5, 1.7
-          # But we include those when we run the once-daily cron job.
+          - '1.4'
+          - '1.5'
           - '1.6'
+          - '1.7'
           - '1.8'
           - '1.9'
           - '1.10'
@@ -71,4 +59,4 @@ jobs:
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
       - run: .ci/instantiate.sh .ci/
       - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
-      - run: julia --color=yes --project=.ci/ -e 'import RegistryCI; RegistryCI.test(registry_deps=["https://github.com/JuliaRegistries/General"])'
+      - run: julia --color=yes --project=.ci/ -e 'import RegistryCI; RegistryCI.test()'
